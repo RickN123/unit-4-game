@@ -12,54 +12,56 @@
     <div class="container">
 
         <div class="navbar-fluid" width: 100%></div>
-        <nav class="navbar-inner">
-            <div class="width=device-width p-3 mb-2 bg-danger text-white align-left">
-                <header>Crystal Game</header>
+        <div class="width=100% p-3 mb-2 bg-danger text-white align-left">
+            <header>Crystal Game</header>
 
-        </nav>
-    </div>
-    <div id="content">
+            </nav>
+        </div>
+        <div id="content">
+            <br>
+            <table class>
+                <p1>You will be given a random number at the start of the game. </p1>
+                <br>
+                <br>
+                <p2>There are four crystals below. By clicking on a crystal you will add a specific amount of points to
+                    your
+                    total score.</p2>
+                <br>
+                <br>
+                <p3>You win the game by matching your total score to random numbers, you lose the game if your total
+                    score
+                    goes above the random number.</p3>
+                <br>
+                <br>
+                <p4>The value of each crystal is hidden from you until you click on it.</p4>
+                <br>
+                <br>
+                <p5>Each time when the game starts, the game will change the values of each crystal.</p5>
+                <br>
+                <br>
+
+        </div>
+
+        <form name="CrystalsGame">
+        </form>
+        <h1></h1>
         <br>
-        <table class>
-            <p1>You will be given a random number at the start of the game. </p1>
-            <br>
-            <br>
-            <p2>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
-                total score.</p2>
-            <br>
-            <br>
-            <p3>You win the game by matching your total score to random numbers, you lose the game if your total score
-                goes above the random number.</p3>
-            <br>
-            <br>
-            <p4>The value of each crystal is hidden from you until you click on it.</p4>
-            <br>
-            <br>
-            <p5>Each time when the game starts, the game will change the values of each crystal.</p5>
-            <br>
-            <br>
 
-    </div>
-
-    <form name="CrystalsGame">
-    </form>
-    <h1></h1>
-    <br>
-
-    <div id="scoreboard" class="bg-danger">
-        <div class="row">
-            <div class="column-md-9">
-                <div id="Total Score">
-                    <div class="totalScore"></div>
-                    <h2>Total Score:</h2>
-                </div>
-            </div>
+        <div id="scoreboard" class="bg-danger">
             <div class="row">
-                <div class="column-md-3"></div>
-                <div id="Wins">Wins: </div>
-                <div class="countWins"></div>
-                <div id="Losses">Losses:</div>
-                <div class="Losses"></div>
+                <div class="column-md-9">
+                    <div id="Total Score">
+                        <div class="totalScore"></div>
+                        <h2>Total Score:</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column-md-3"></div>
+                    <div id="Wins">Wins: </div>
+                    <div class="countWins"></div>
+                    <div id="Losses">Losses:</div>
+                    <div class="Losses"></div>
+                </div>
             </div>
             <hr>
             <div id="crystals">
@@ -90,6 +92,11 @@
                     </div>
                 </div>
             </div>
+            <br>
+            <p7>Your Total Score</p7>
+            <br>
+            <div id="Total Score" :0></div>
+            <br>
             <footer>Thanks for Playing!</footer>
             <script src="game.js"></script>
             </body>
