@@ -21,15 +21,12 @@
   
     }
     #container {
-      text-align: center;
       box-align: left;
       display: inline-block;
       box-align: left;
       align-content: left;
       align-self: left;
       background-color: tan;
-      margin-left: auto;
-      margin-right: auto;
       text-decoration-color: darkgreen;
   
     }
@@ -53,6 +50,7 @@
       align-content: left;
       display: block;
       background-color: rgb(218, 189, 96);
+      width: 300px;
       color: #777777;
       border-color:#cccccc;
       font-size: 16px;
@@ -60,8 +58,6 @@
       text-align: left;
       top: 0;
       left: 0;
-      margin-left:auto;
-      margin-right:auto;
       align: left;
       background-position: relative;
       margin-top:0;
