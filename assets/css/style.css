@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  }
+  @media screen and (max-width: 900px) {
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: auto;
+          margin-bottom: auto;
+    }
+    
+    #header{
+      background-color: #ffffff;
+      height: 40px;
+      color: rgb(255, 248, 248);
+      position:absolute fixed;
+      top:0;
+      font: georgia;
+      border-bottom-style: solid;
+      border-color: #cccccc;
+      display:inline-block;
+      float:none;
+      text-align: justify;
+      width:auto;
+  
+    }
+    #container {
+      text-align: center;
+      box-align: center;
+      display: inline-block;
+      box-align: center;
+      align-content: center;
+      align-self: center;
+      background-color: chartreuse;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    }
+    body {
+      margin: auto;
+      width: 100%;
+      flex: center;
+    }
+  
+    #header {
+      width:100%;
+      text-align: center;
+  
+    }
+    #h1 {
+      color: aqua;
+    }
+    #content { 
+      display:inline-block;
+      align-content: center;
+      display: block;
+      background-color: rgb(39, 221, 2);
+      color: #777777;
+      border-color:#cccccc;
+      font-size: 16px;
+      text-decoration-color: rgb(0, 0, 0);
+      text-align: center;
+      top: 0;
+      left: 0;
+      margin-left:auto;
+      margin-right:auto;
+      align: center;
+      background-position: relative;
+      margin-top:0;
+      font-family: 'Margarine', cursive;
+      font-family: 'Merriweather', serif;
+  
+     
+    }
+  
+    #header {
+  
+      align-content: center;
+    }
+    #footer {
+      width: 100%;
+      background-color: rgb(112, 124, 124);
+      height: 20px;
+      font-size: 10px;
+      text-emphasis-color: white;
+      position:absolute;
+      bottom:absolute;
+      text-align: center;
+      border-top-style: solid;
+      border-color:#4aaaa5; 
+      margin-bottom:auto;
+      min-height:45px;
+    }
+  
+    #h1 {
+  
+      text-align: center;
+      
+    }
+    #footer {
+        position: bottom;
+        background-color: black;
+    }
+  
+    }
+  
+    
+    
