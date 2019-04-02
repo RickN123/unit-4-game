@@ -46,7 +46,6 @@
     #content { 
       display:inline-block;
       align-content: left;
-      display: block;
       background-color: rgb(218, 189, 96);
       width: 300px;
       color: #777777;
@@ -57,7 +56,6 @@
       top: 0;
       left: 0;
       align: left;
-      background-position: relative;
       margin-top:0;
       font-family: 'Margarine', cursive;
       font-family: 'Merriweather', serif;
