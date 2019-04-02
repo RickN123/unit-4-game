@@ -1,14 +1,17 @@
 
 
 window.onload = function () {
-    var Random = [Math.floor(Math.random() * 101 + 19);
+    var RandomNumber = [Math.floor(Math.random() * 101 + 19);
 
 };
+$("crystals").on("click", function () {
+    for (var i = 0; i < 1; i++)
 
-$("#red").onclick(.text(Random);
-$("#blue").onclick(.text(Random);
-$("#yellow").onclick(.text(Random);
-$("#green").onclick(.text(Random);
+}
+$("#red").onclick(.documentwrite.RandomNumber);
+$("#blue").onclick(.text(RandomNumber);
+$("#yellow").onclick(.text(RandomNumber);
+$("#green").onclick(.text(RandomNumber);
 };
 
 var wins = 0;
@@ -20,9 +23,9 @@ var correctGuess = null;
 
 function initialize() {
 
+    totalscore = 0;
     wins = 0;
-    losses = 0;
-    guessesLeft = 10;
+    losses = 10;
     guessesDone = 0;
     correctGuess = 0;
     updateCountsOnUI();
