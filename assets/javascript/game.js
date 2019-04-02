@@ -1,34 +1,32 @@
 
 
-window.onload = function () {
-    var RandomScore = [Math.floor(Math.random() * 101 + 19);
+$(document.onload = function () {
+    var RandomScore = [Math.floor(Math.random() * 101) + 19);
+var TotalScore = document.getElementById('TotalScore')
 
 };
 $("crystals").on("click", function () {
     for (var i = 0; i < 1; i++);
 
-    $("#red")onclick(.document.write.RandomNumber);
-    $("#blue")onclick(.document.write.RandomNumber);
-    $("#yellow")onclick(.document.write.RandomNumber);
-    $("#green")onclick(.document.write.RandomNumber);
+
+    $("#red")onclick(.document.write.RandomScore);
+    $("#blue")onclick(.document.write.RandomScore);
+    $("#yellow")onclick(.document.write.RandomScore);
+    $("#green")onclick(.document.write.RandomScore);
 };
 
 var wins = 0;
 var losses = 0;
 var guessesLeft = 0;
-var number = 
-var guessesDone = 0;
-var correctGuess = null;
+var number =
 
-function initialize() {
+    function initialize() {
 
-    totalscore = 0;
-    wins = 0;
-    losses = 10;
-    guessesDone = 0;
-    correctGuess = 0;
-    updateCountsOnUI();
-}
+        TotalScore = 0;
+        wins = 0;
+        losses = 0;
+        updateCountsOnUI();
+    }
 
 
 document.onclick = function (event) {
@@ -37,13 +35,12 @@ document.onclick = function (event) {
     var computerGuess = alphabets[Math.floor(Math.random() * alphabets.length)];
 
 
-    if (userGuess === computerGuess) {
+    if (TotalScore === RandomScore) {
         wins += 1;
     } else {
         losses += 1;
     }
-    guessesLeft -= 1;
-    guessesDone += 1;
+
 
 
     updateCountsOnUI();
