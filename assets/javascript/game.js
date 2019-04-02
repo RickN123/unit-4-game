@@ -1,10 +1,10 @@
 
 
 window.onload = function () {
-    $("#redcrystal").on("click", recordLap);
-    $("#bluecrystal").on("click", stop);
-    $("#yellowcrystal").on("click", reset);
-    $("#greencrystal").on("click", start);
+    $("#redcrystal").on("click", random);
+    $("#bluecrystal").on("click", random);
+    $("#yellowcrystal").on("click", random);
+    $("#greencrystal").on("click", random);
 };
 
 
@@ -30,7 +30,7 @@ document.onclick = function (event) {
     if (guessesDone >= 10) {
         return;
     }
-    var userGuess = event.key;
+    var random = event.key;
     var computerGuess = alphabets[Math.floor(Math.random() * alphabets.length)];
 
 
@@ -51,17 +51,10 @@ document.onclick = function (event) {
 
 function updateCountsOnUI() {
 
-    document.getElementById('Wins').innerHTML = "Wins: " + countwins;
-    document.getElementById('Losses').innerHTML = "Losses: " + countlosses;
-    document.getElementById('GuessesLeft').innerHTML = "GuessesLeft: " + guessesLeft
-    document.getElementById('GuessesDone').innerHTML = "GuessesDone: " + guessesDone
+    document.append('Wins').innerHTML = "Wins: " + countwins;
+    document.append('Losses').innerHTML = "Losses: " + countlosses;
+    document.append('GuessesLeft').innerHTML = "GuessesLeft: " + guessesLeft
+    document.append('GuessesDone').innerHTML = "GuessesDone: " + guessesDone
 }
 
 initialize();
-/*
-
-    }
-
-
-
-*/
