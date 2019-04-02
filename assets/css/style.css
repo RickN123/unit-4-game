@@ -87,8 +87,7 @@
     #crystals{
 
     width: 700px;
-    align-items: vertical;
-    alt:center;
+    float:flex;
     }
 
 

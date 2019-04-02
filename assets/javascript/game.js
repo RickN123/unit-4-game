@@ -1,6 +1,7 @@
 
 
 window.onload = function () {
+    var Random = [Math.floor(Math.random() * 101 + 19);
     $("#redcrystal").on("click", random);
     $("#bluecrystal").on("click", random);
     $("#yellowcrystal").on("click", random);
@@ -51,10 +52,10 @@ document.onclick = function (event) {
 
 function updateCountsOnUI() {
 
-    document.append('Wins').innerHTML = "Wins: " + countwins;
-    document.append('Losses').innerHTML = "Losses: " + countlosses;
-    document.append('GuessesLeft').innerHTML = "GuessesLeft: " + guessesLeft
-    document.append('GuessesDone').innerHTML = "GuessesDone: " + guessesDone
+    document.write('Wins').innerHTML = "Wins: " + countwins;
+    document.write('Losses').innerHTML = "Losses: " + countlosses;
+    document.write('GuessesLeft').innerHTML = "GuessesLeft: " + guessesLeft
+    document.write('GuessesDone').innerHTML = "GuessesDone: " + guessesDone
 }
 
 initialize();
