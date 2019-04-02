@@ -1,6 +1,11 @@
 
 
-
+window.onload = function () {
+    $("#redcrystal").on("click", recordLap);
+    $("#bluecrystal").on("click", stop);
+    $("#yellowcrystal").on("click", reset);
+    $("#greencrystal").on("click", start);
+};
 
 
 var wins = 0;
@@ -16,12 +21,12 @@ function initialize() {
     losses = 0;
     guessesLeft = 10;
     guessesDone = 0;
-    correctGuess = null;
+    correctGuess = 0;
     updateCountsOnUI();
 }
 
 
-document.onkeyup = function (event) {
+document.onclick = function (event) {
     if (guessesDone >= 10) {
         return;
     }
@@ -46,8 +51,8 @@ document.onkeyup = function (event) {
 
 function updateCountsOnUI() {
 
-    document.getElementById('Wins').innerHTML = "Wins: " + wins;
-    document.getElementById('Losses').innerHTML = "Losses: " + losses;
+    document.getElementById('Wins').innerHTML = "Wins: " + countwins;
+    document.getElementById('Losses').innerHTML = "Losses: " + countlosses;
     document.getElementById('GuessesLeft').innerHTML = "GuessesLeft: " + guessesLeft
     document.getElementById('GuessesDone').innerHTML = "GuessesDone: " + guessesDone
 }
