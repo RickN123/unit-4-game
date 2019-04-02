@@ -1,17 +1,16 @@
 
 
 window.onload = function () {
-    var RandomNumber = [Math.floor(Math.random() * 101 + 19);
+    var RandomScore = [Math.floor(Math.random() * 101 + 19);
 
 };
 $("crystals").on("click", function () {
-    for (var i = 0; i < 1; i++)
+    for (var i = 0; i < 1; i++);
 
-}
-$("#red").onclick(.documentwrite.RandomNumber);
-$("#blue").onclick(.text(RandomNumber);
-$("#yellow").onclick(.text(RandomNumber);
-$("#green").onclick(.text(RandomNumber);
+    $("#red")onclick(.document.write.RandomNumber);
+    $("#blue")onclick(.document.write.RandomNumber);
+    $("#yellow")onclick(.document.write.RandomNumber);
+    $("#green")onclick(.document.write.RandomNumber);
 };
 
 var wins = 0;
