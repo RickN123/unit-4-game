@@ -1,47 +1,43 @@
 * {
     box-sizing: border-box;
   }
-  
-  }
+
   @media screen and (max-width: 900px) {
-          margin-left: auto;
-          margin-right: auto;
-          margin-top: auto;
-          margin-bottom: auto;
+   
     }
     
     #header{
       background-color: #ffffff;
       height: 40px;
       color: rgb(255, 248, 248);
-      position:absolute fixed;
       top:0;
       font: georgia;
       border-bottom-style: solid;
       border-color: #cccccc;
       display:inline-block;
       float:none;
-      text-align: justify;
+      text-align: left;
       width:auto;
   
     }
     #container {
       text-align: center;
-      box-align: center;
+      box-align: left;
       display: inline-block;
-      box-align: center;
-      align-content: center;
-      align-self: center;
-      background-color: chartreuse;
+      box-align: left;
+      align-content: left;
+      align-self: left;
+      background-color: tan;
       margin-left: auto;
       margin-right: auto;
-    }
+      text-decoration-color: darkgreen;
   
     }
     body {
       margin: auto;
       width: 100%;
-      flex: center;
+      flex: left;
+      background: #4aaaa5;
     }
   
     #header {
@@ -54,19 +50,19 @@
     }
     #content { 
       display:inline-block;
-      align-content: center;
+      align-content: left;
       display: block;
       background-color: rgb(39, 221, 2);
       color: #777777;
       border-color:#cccccc;
       font-size: 16px;
       text-decoration-color: rgb(0, 0, 0);
-      text-align: center;
+      text-align: left;
       top: 0;
       left: 0;
       margin-left:auto;
       margin-right:auto;
-      align: center;
+      align: left;
       background-position: relative;
       margin-top:0;
       font-family: 'Margarine', cursive;
@@ -87,7 +83,7 @@
       text-emphasis-color: white;
       position:absolute;
       bottom:absolute;
-      text-align: center;
+      text-align: left;
       border-top-style: solid;
       border-color:#4aaaa5; 
       margin-bottom:auto;
@@ -96,7 +92,7 @@
   
     #h1 {
   
-      text-align: center;
+      text-align: left;
       
     }
     #footer {
@@ -104,7 +100,7 @@
         background-color: black;
     }
   
-    }
+    
   
     
     
