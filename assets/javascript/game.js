@@ -49,7 +49,7 @@ $(document).ready(function () {
     }
 
 
-    $(".crystal").on("click", makeRandomScore)
+    $(".colorcrystal").on("click", makeRandomScore)
 
     initialize();
 });
