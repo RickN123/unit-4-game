@@ -4,19 +4,9 @@
 
   @media screen and (max-width: 900px) {
    
-    }
     
-    #header{
-      background-color: #ffffff;
-      height: 40px;
-      color: rgb(255, 248, 248);
-      top:0;
-      font: georgia;
-      border-bottom-style: solid;
-      border-color: #cccccc;
-      display:inline-block;
-      text-align: left;
-      width:100%;
+    
+    
   
     }
     #container {
@@ -33,11 +23,7 @@
       width: 100%;
       flex: left;
       background: #4aaaa5;
-    }
-  
-    #header {
-      width:100%;
-      text-align: center;
+    
   
     }
     #h1 {
