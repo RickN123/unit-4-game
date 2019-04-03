@@ -3,7 +3,6 @@
 
 
 $(document).ready(function () {
-    console.log("ready!");
 
     var totalScore;
     var initialRandomScore;
@@ -33,7 +32,6 @@ $(document).ready(function () {
         totalScore += Math.floor(Math.random() * 11) + 1;
 
         $("#TotalScore").text(totalScore);
-        console.log("Total score is ", totalScore);
 
         if (totalScore > initialRandomScore) {
 
