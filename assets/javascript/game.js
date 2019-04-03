@@ -12,12 +12,10 @@ var yellow = [Math.floor(Math.random() * 11) + 1);
 
 
 };
-$("crystals").click(function () {
-    for (var i = 0; i < 1; i++);
 
-}
+document.onclick = function (TotalScore) {
 
-    $("#red").click(.document.write.RandomScore);
+$("#red").click(.document.write.RandomScore);
 }
 $("#blue").click(.document.write.RandomScore);
 }
