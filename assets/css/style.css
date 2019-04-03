@@ -4,7 +4,6 @@
 
   @media screen and (max-width: 900px) {
     
-  
     }
     #container {
       box-align: left;
@@ -20,7 +19,6 @@
       width: 100%;
       flex: left;
       background: #4aaaa5;
-    
   
     }
     #h1 {
@@ -41,7 +39,6 @@
       margin-top:0;
       font-family: 'Margarine', cursive;
       font-family: 'Merriweather', serif;
-  
      
     }
     #scoreboard {
@@ -70,7 +67,6 @@
         background: #cccccc;
         width: auto;
     
-
     }
     #crystals{
 
