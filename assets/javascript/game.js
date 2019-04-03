@@ -15,12 +15,12 @@ $(document).ready(function () {
 
         totalScore = 0;
         initialRandomScore = Math.floor(Math.random() * 101) + 19;
-        updateCountsOnUI();
+        updateTotalsOnUI();
     }
 
 
 
-    function updateCountsOnUI() {
+    function updateTotalsOnUI() {
 
         $('#Wins').text("Wins: " + wins);
         $('#Losses').text("Losses: " + losses);
@@ -45,7 +45,7 @@ $(document).ready(function () {
 
             initialize();
         }
-        updateCountsOnUI();
+        updateTotalsOnUI();
     }
 
 
