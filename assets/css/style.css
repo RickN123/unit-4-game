@@ -72,14 +72,6 @@
     #totalscore {
         background: #cccccc;
         width: auto;
-
-    }
-    #winslosses {
-        background: blue;
-        width: auto;
-        float: flex;
-        text-align:left;
-
     
 
     }
@@ -95,29 +87,14 @@
   
       align-content: center;
     }
-    #footer {
-      width: 100%;
-      background-color: rgb(112, 124, 124);
-      height: 20px;
-      font-size: 10px;
-      text-emphasis-color: white;
-      position:absolute;
-      bottom:absolute;
-      text-align: left;
-      border-top-style: solid;
-      border-color:#4aaaa5; 
-      margin-bottom:auto;
-      min-height:45px;
-    }
+   
   
     #h1 {
   
       text-align: left;
       
-    }
-    #footer {
-        position: bottom;
-        background-color: black;
+    
+   
     }
   
     
