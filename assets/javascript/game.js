@@ -17,8 +17,6 @@ $(document).ready(function () {
         updateTotalsOnUI();
     }
 
-
-
     function updateTotalsOnUI() {
 
         $('#Wins').text("Wins: " + wins);
